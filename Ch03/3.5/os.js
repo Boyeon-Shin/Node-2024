@@ -1,4 +1,5 @@
-const os = require('os');
+// const os = require('os');
+import os from 'node:os';
 
 console.log('운영체제 정보 -------------------------------')
 console.log('os.arch():' , os.arch());
